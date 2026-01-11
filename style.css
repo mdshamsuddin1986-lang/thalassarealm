@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+body {
+  background-color: #0b0b0b;
+  color: #f2f1ef; /* cloud dancer */
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: radial-gradient(circle, #111, #000);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+  opacity: 0.85;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.placeholder {
+  background: #1a1a1a;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  border: 1px solid #2a2a2a;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  color: #000;
+  background-color: #f2f1ef;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #d6d4cf;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  opacity: 0.5;
+}
